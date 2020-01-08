@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+   <h1>
+      Time Tracker
+   </h1>
+   <hr>
+
+   <h2 id="greet">Hello ...</h2>
+   <p>
+      <label for="name">Name: </label>
+      <input id="name" placeholder="Enter yout name"></input></p>
+   <button id="nameBtn">Ok</button>
+
+   <hr>
+   <h2 id="quoteTitle">Quote of the day</h2>
+   <h3 id="quoteText">-</h3>
+   <h4 id="quoteAuthor">-</h4>
+   <br>
+   <button id="newQuote">New Quote</button>
+   <script src="quote.js"></script>
+
+
+   <br>
+   <hr>
+
+   <h2>Log In To Save Your Progress</h2>
+   <div class="login">
+      <br>
+      <label for="userName">User Name: </label>
+      <input type="text" name="userName" id="userName">
+      <br>
+      <label for="passWord">Password: </label>
+      <input type="text" name="passWord" id="passWord">
+      <br>
+      <button name="loginBtn" id="loginBtn">Log in</button>
+   </div>
+   <div class="vl"></div>
+   <div class="signup">
+      <h3 style="text-align:left">No Account?</h3>
+      <tezt>Go To Our Website And Sign Up To Unlock Preminium feater for free</tezt>
+      <br><button name="signupBtn" id="signupBtn">Sign up</button>
+   </div>
+   
+
+   <br>
+   <br>
+
+   <hr>
+   <table>
+      <caption>Plan Your Day Here</caption>
+      <tr>
+         <th>Time</th>
+         <th>0-15 min</th>
+         <th>15-30 min</th>
+         <th>30-45 min</th>
+         <th>44-59 min</th>
+      </tr>
+      <tr>
+         <td>0 AM</td>
+         <td id="0AM0"><input type="text"></input></td>
+         <td id="0AM1"><input type="text"></input></td>
+         <td id="0AM2"><input type="text"></input></td>
+         <td id="0AM3"><input type="text"></input></td>
+         <!--Time(XAM)+MIN(0-3) -->
+      </tr>
+      <tr>
+         <td>1 AM</td>
+         <td id="1AM0"><input type="text"></input></td>
+         <td id="1AM1"><input type="text"></input></td>
+         <td id="1AM2"><input type="text"></input></td>
+         <td id="1AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>2 AM</td>
+         <td id="2AM0"><input type="text"></input></td>
+         <td id="2AM1"><input type="text"></input></td>
+         <td id="2AM2"><input type="text"></input></td>
+         <td id="2AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>3 AM</td>
+         <td id="3AM0"><input type="text"></input></td>
+         <td id="3AM1"><input type="text"></input></td>
+         <td id="3AM2"><input type="text"></input></td>
+         <td id="3AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>4 AM</td>
+         <td id="4AM0"><input type="text"></input></td>
+         <td id="4AM1"><input type="text"></input></td>
+         <td id="4AM2"><input type="text"></input></td>
+         <td id="4AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>5 AM</td>
+         <td id="5AM0"><input type="text"></input></td>
+         <td id="5AM1"><input type="text"></input></td>
+         <td id="5AM2"><input type="text"></input></td>
+         <td id="5AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>6 AM</td>
+         <td id="6AM0"><input type="text"></input></td>
+         <td id="6AM1"><input type="text"></input></td>
+         <td id="6AM2"><input type="text"></input></td>
+         <td id="6AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>7 AM</td>
+         <td id="7AM0"><input type="text"></input></td>
+         <td id="7AM1"><input type="text"></input></td>
+         <td id="7AM2"><input type="text"></input></td>
+         <td id="7AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>8 AM</td>
+         <td id="8AM0"><input type="text"></input></td>
+         <td id="8AM1"><input type="text"></input></td>
+         <td id="8AM2"><input type="text"></input></td>
+         <td id="8AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>9 AM</td>
+         <td id="9AM0"><input type="text"></input></td>
+         <td id="9AM1"><input type="text"></input></td>
+         <td id="9AM2"><input type="text"></input></td>
+         <td id="9AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>10AM</td>
+         <td id="10AM0"><input type="text"></input></td>
+         <td id="10AM1"><input type="text"></input></td>
+         <td id="10AM2"><input type="text"></input></td>
+         <td id="10AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>11AM</td>
+         <td id="11AM0"><input type="text"></input></td>
+         <td id="11AM1"><input type="text"></input></td>
+         <td id="11AM2"><input type="text"></input></td>
+         <td id="11AM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>12PM</td>
+         <td id="12PM0"><input type="text"></input></td>
+         <td id="12PM1"><input type="text"></input></td>
+         <td id="12PM2"><input type="text"></input></td>
+         <td id="12PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>1 PM</td>
+         <td id="1PM0"><input type="text"></input></td>
+         <td id="1PM1"><input type="text"></input></td>
+         <td id="1PM2"><input type="text"></input></td>
+         <td id="1PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>2 PM</td>
+         <td id="2PM0"><input type="text"></input></td>
+         <td id="2PM1"><input type="text"></input></td>
+         <td id="2PM2"><input type="text"></input></td>
+         <td id="2PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>3 PM</td>
+         <td id="3PM0"><input type="text"></input></td>
+         <td id="3PM1"><input type="text"></input></td>
+         <td id="3PM2"><input type="text"></input></td>
+         <td id="3PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>4 PM</td>
+         <td id="4PM0"><input type="text"></input></td>
+         <td id="4PM1"><input type="text"></input></td>
+         <td id="4PM2"><input type="text"></input></td>
+         <td id="4PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>5 PM</td>
+         <td id="5PM0"><input type="text"></input></td>
+         <td id="5PM1"><input type="text"></input></td>
+         <td id="5PM2"><input type="text"></input></td>
+         <td id="5PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>6 PM</td>
+         <td id="6PM0"><input type="text"></input></td>
+         <td id="6PM1"><input type="text"></input></td>
+         <td id="6PM2"><input type="text"></input></td>
+         <td id="6PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>7 PM</td>
+         <td id="7PM0"><input type="text"></input></td>
+         <td id="7PM1"><input type="text"></input></td>
+         <td id="7PM2"><input type="text"></input></td>
+         <td id="7PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>8 PM</td>
+         <td id="8PM0"><input type="text"></input></td>
+         <td id="8PM1"><input type="text"></input></td>
+         <td id="8PM2"><input type="text"></input></td>
+         <td id="8PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>9 PM</td>
+         <td id="9PM0"><input type="text"></input></td>
+         <td id="9PM1"><input type="text"></input></td>
+         <td id="9PM2"><input type="text"></input></td>
+         <td id="9PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>10PM</td>
+         <td id="10PM0"><input type="text"></input></td>
+         <td id="10PM1"><input type="text"></input></td>
+         <td id="10PM2"><input type="text"></input></td>
+         <td id="10PM3"><input type="text"></input></td>
+      </tr>
+      <tr>
+         <td>11PM</td>
+         <td id="11PM0"><input type="text"></input></td>
+         <td id="11PM1"><input type="text"></input></td>
+         <td id="11PM2"><input type="text"></input></td>
+         <td id="11PM3"><input type="text"></input></td>
+      </tr>
+   </table>
+   <select id="hourList" name="hour">
+      <option value="0AM">0AM</option>
+      <option value="1AM">1AM</option>
+      <option value="2AM">2AM</option>
+      <option value="3AM">3AM</option>
+      <option value="4AM">4AM</option>
+      <option value="5AM">5AM</option>
+      <option value="6AM">6AM</option>
+      <option value="7AM">7AM</option>
+      <option value="8AM">8AM</option>
+      <option value="9AM">9AM</option>
+      <option value="10AM">10AM</option>
+      <option value="11AM">11AM</option>
+      <option value="12PM">12PM</option>
+      <option value="1PM">1PM</option>
+      <option value="2PM">2PM</option>
+      <option value="3PM">3PM</option>
+      <option value="4PM">4PM</option>
+      <option value="5PM">5PM</option>
+      <option value="6PM">6PM</option>
+      <option value="7PM">7PM</option>
+      <option value="8PM">8PM</option>
+      <option value="9PM">9PM</option>
+      <option value="10PM">10PM</option>
+      <option value="11PM">11PM</option>
+   </select>
+   <br>
+   0-15 min<input type="radio" id="min" name="min" value="0" checked>
+   15-30 min<input type="radio" id="min" name="min" value="1">
+   30-45 min<input type="radio" id="min" name="min" value="2">
+   45-59 min<input type="radio" id="min" name="min" value="3">
+   <br>
+   <label for="newTaskName">Task: </label>
+   <input type="text" id="newTaskName" name="newTaskName" placeholder="Enter Your Task..."></input>
+   <!-- <input type="text" id="newTaskText" placeholder="What is your focus?" name="newTaskText"></input> -->
+   <button type="submit" id="updateButton">Submit</button>
+   <text id="status"></text>
+
+
+
+   <hr>
+
+   <h2>Go to our website to see more</h2>
+   <div style="text-align:center" class="users" id="users">
+      <button name="seeMoreBtn" id="seeMoreBtn">See More</button>
+   </div>
+
+   <script src="popup.js" type="text/javascript"></script>
+</body>
+</hyml>

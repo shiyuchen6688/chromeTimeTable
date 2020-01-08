@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "Time Tracker",
+    "version": "1.0",
+    "description": "This entension help you manage your time",
+    "offline_enabled": true,
+    "icons": {
+        "128": "icon/icon128.png",
+        "48": "icon/icon48.png",
+        "16": "icon/icon16.png"
+    },
+    "content_scripts": [
+        {   
+            "matches": [
+             "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "http://localhost/*",
+        "http://localhost:8080/*",
+        "http://localhost:8080/chromeTimeTracker/db/login.php",
+        "http://localhost:8080/chromeTimeTracker/record.php",
+        "http://*/*",
+        "file:///*"
+    ],
+    "browser_action": {
+        "default_icon": "icon/icon16.png",
+        "default_popup": "popup.html",
+        "default_title": "press me"
+    }
+    
+
+}
